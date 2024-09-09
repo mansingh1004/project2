@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.desktopnav{
+    display: flex;
+    justify-content: center;
+    
+}
+.mobilenav{
+    display: none;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+}
+
+.opennav{
+    width: 100px;
+    height: 50vh;
+    background-color: aqua;
+    position: absolute;
+    left: 0px;
+    left: -300px;
+   
+}
+@media(max-width:430px){
+    .desktopnav{
+        display: none;
+    }
+    .mobilenav{
+        display: flex;
+
+    }
+    
+    #check:checked ~ .opennav{
+        left: 0px;
+        transition: left 2s;
+    }
+}

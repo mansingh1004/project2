@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+   
+}
+body{
+    overflow-x: hidden;
+}
+
+.rightsidebuynow{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 300px;
+    color: rgb(8, 8, 8);
+    font-size: 15px;
+    font-weight:bolder;
+   
+
+}
+.rightsidebuynow1{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 240px;
+    color:black;
+    font-size: 15px;
+    font-weight:bolder;
+
+}
+.rightsidebuynow2{
+    width: 60px;
+    height: 50px;
+    background-color:white;
+    position: fixed;
+    right: 0px;
+    top: 180px;
+    color: black;
+    font-size: 15px;
+    font-weight:bolder;
+    
+
+}
+.rightsidebuynow3{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    right: 0px;
+    top: 120px;
+    color:black;
+  
+    font-size: 15px;
+  font-weight:bolder;
+  
+  
+   
+
+
+}
+
+/* =============speed==============  */
+.speed{
+    font-size: 80px;
+    font-weight: 600px;
+    position: absolute;
+    top: 220px;
+    left: 1000px;
+    z-index: 4;
+    color: white;
+}
+.bigspeed{
+    font-size: 148px;
+    font-weight: 600px;
+    position: absolute;
+    top: 190px;
+    left: 900px;
+    z-index: 1;
+    color: white;
+    opacity: 0.5;
+
+    
+
+
+} 
+html{
+    overflow-x: hidden;
+}
+
+
+.three_section_navbar{
+    position: sticky;
+   top: 0px;
+   overflow-x: hidden;
+}
+
+
+.three_section_navbar ul {
+    list-style-type: none;                              
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 165, 42);
+   
+    
+}
+
+.three_section_navbar ul li img{
+    width: 200px;
+
+}
+.three_section_navbar ul li ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+   
+}
+.midnav{
+    margin-right:400px;
+    margin-left: 200px;
+}
+.smallnav{
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.dropdownlist{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    top: 10px;
+    left: -200px;
+    display: none;
+}
+
+    
+
+@media (max-width:431px){
+    .three_section_navbar{
+        display: none;
+    }
+    .smallnav{
+        display: flex;
+    }
+    #opennav:checked ~ .dropdownlist{
+        display: block;
+        left: 0px;
+        transition: left 2s;
+    }
+}
+
+
+.hero{
+    width: 100%;
+    height: 85vh;
+    /* border: 2px solid red; */
+    background-image: url('https://www.portotheme.com/wordpress/porto/shop47/wp-content/uploads/sites/230/2023/11/porto47-intro-banner-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-x: hidden;
+
+}
+.hero article .div1{ 
+    font-size:24px;
+    color:rgb(105, 103, 103);
+
+}
+.hero article .div2{
+    font-size:48px;
+    font-family:"Lilita One",sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+}
+.hero article .div3{
+    text-decoration: none;
+    font-size:20px;
+}
+
+.hero article img{
+    position: relative;
+    z-index: 3;
+   
+}
+
+@media(max-width:431px){
+    .hero{
+        display: block;
+        padding: 50px;
+      
+        height: 50vh;
+
+    }
+    .hero article img{
+        width: 300px;
+       
+    }
+}
+
+/* ////////================best seller */
+.bestseller{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-evenly;
+    overflow-x: hidden;
+
+
+}
+.bestseller article{
+    margin: 10px;
+    width: 200px;
+    height:250px;
+    border-radius: 10px;
+    box-shadow:0px 0px 30px 10px rgb(239, 236, 236);
+
+
+}
+.bestseller article div img{
+    width: 200px;
+   
+   
+}
+.bestseller article{
+    padding: 10px;
+}
+@media(max-width:431px){
+    .bestseller{
+       grid-template-columns: auto;
+    }
+}
+
+
+
+/* ===============================new arrival============================================= */
+.newarrival{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px;
+    overflow-x: hidden;
+
+}
+.newarrivaldiv1{
+    font-size: 40px;
+}
+/* ================= */
+
+.sneakers{
+    margin-left: 500px;
+    font-size: 40px;
+    margin-top: -100px;
+
+}
+.sneakers1{
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.5;
+
+}
+.sn{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+
+
+
+
+/* =============================REPONSIVE CSS */
+
+
+
+

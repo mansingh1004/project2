@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+.nav li {
+  padding: 20px;
+}
+.nav li a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

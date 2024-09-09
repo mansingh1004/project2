@@ -1,0 +1,29 @@
+
+ @mixin main(){
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    margin: 100px;
+    font-size: 20px;
+    
+}
+
+ 
+
+
+.btn1{
+    @include main();
+    color: white;
+    
+    
+}
+
+.btn2{
+    @include main();
+}
+.btn3{
+    @include main();
+}
+

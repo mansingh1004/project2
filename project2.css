@@ -1,0 +1,87 @@
+.nav1 {
+  display: flex;
+  align-items: center;
+}
+
+#dimi {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.user {
+  display: flex;
+  margin-left: 1100px;
+}
+.user li {
+  align-items: end;
+}
+.user a {
+  padding: 20px;
+}
+
+.acw {
+  width: 200px;
+  height: 200px;
+  list-style-type: none;
+  background-color: rgb(4, 10, 10);
+  display: none;
+}
+
+#check:checked ~ .acw {
+  display: flex;
+}
+
+.search {
+  border: 1px solid black;
+  height: 40px;
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+#input {
+  margin-left: 70px;
+  border-color: white;
+  opacity: 1.5;
+  border: none;
+  font-size: 20px;
+}
+
+#textsearch {
+  text-align: center;
+  margin-left: 190px;
+  margin-top: 10px;
+  width: 40px;
+  height: 30px;
+  background-color: red;
+}
+
+.drop {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-color: white;
+  opacity: 0.5 px;
+}
+
+.navbar {
+  background-color: red;
+  height: 60px;
+}
+
+.hsbcvc {
+  display: flex;
+  margin-top: 40px;
+}
+
+.hsbcvc div a {
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=project2.css.map */

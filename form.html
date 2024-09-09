@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    <title>form Tag</title>
+</head>
+<body align="center">
+    <form action="save.html" target="_blank" >
+        <input  type="text" id="name" placeholder="Enter name" required>
+ 
+      <br><br>
+      <input type="email" id="email" placeholder="Enter Email" required>
+      <br><br>
+       <input type="Number" id="num" placeholder="Enter number" required>
+      <br><br>
+     <input type="tel" id="tel" placeholder="Enter mobile number" required><br>
+     <input type="password" id="password" placeholder="Enter password" required>
+     <br><br>
+      <input type="file" id="file" placeholder="file">
+     <br><br>
+     <input type="date" id="date">
+     <br><br>
+     <input type="datetime-local" id="datetime">
+    <br><br>
+      <input type="color"  id="color">
+     <br><br>
+        <input type="reset" >
+        <br><br>
+        <input type="submit"  value="login">
+        <ul type="none">
+            <li>Select Gender</li>
+            <li><label for="male">Male</label> 
+                <input type="radio" id="male" name="gender" value="male" required ><br>
+            </li>
+       
+            <li> <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <br></li>
+                <li> <label for="third">Third</label>
+                    <input type="radio" id="third" name="gender" value="third" required>
+                </li>
+
+
+        </ul>
+
+        <!-- input type checkbox -->
+        <ul type="none">
+            <li>Select Skills</li>
+            <li><label for="male">HTML</label> 
+                <input type="checkbox"     id="html"  value="html" required><br>
+            </li>
+       
+            <li> <label for="css">CSS</label>
+                <input type="checkbox" id="css" value="css" required>
+                <br></li>
+                <li> <label for="js">JAVASCRIPT</label>
+                    <input type="checkbox" id="js"  value="js" required>
+                </li>
+
+
+        </ul>
+        <!-- select -->
+         <label for="thechnology"> Select your course</label>
+         <select name="" id="thechnology" >
+            <option value="none">select option</option>
+            <option value="pfsd">Python Fsd</option>
+            <option value="mernfsd">Mearn Fsd</option>
+            <option value="javafsd">Java Fsd</option>
+            <option value="phpfsd">PHP fsd</option>
+            <option value="pfsd">Python Fsd</option>
+            <option value="mernfsd">Mearn Fsd</option>
+            <option value="javafsd">Java Fsd</option>
+            <option value="phpfsd">PHP fsd</option>
+           
+         </select>
+         <!-- textarea -->
+         <br>
+         <textarea rows="4" cols="30"></textarea>
+         <button>submit</button>
+    </form>
+</body>
+</html>

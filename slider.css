@@ -1,0 +1,51 @@
+#slider{
+
+    width: 600px;
+    overflow: hidden;
+}
+#slider article div img{
+    width: 600px;
+    height: 400px;
+
+
+
+
+}
+
+#slider article{
+    display: flex;
+    border: 2px solid black;
+    width: 1800px;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes slider {
+    0%{
+        margin-left: 0px;
+        transition: margin-left 0.5s;
+    }
+    33%{
+        margin-left: -0px;
+        transition: margin-left 0.5s;
+
+    }
+    40%{
+        margin-left: -600px;
+        transition: margin-left 0.5s;
+    }
+    70%{
+        margin-left: -600px;
+        transition: margin-left 0.5s;
+    }
+    80%{
+        margin-left: -1200px;
+        transition: margin-left 0.5s;
+    }
+    100%{
+        margin-left: -1200px;
+        transition: margin-left 0.5s;
+    }
+    
+}

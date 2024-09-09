@@ -1,0 +1,19 @@
+.slide div{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 40px 20px silver;
+    margin: 20px 50px 20px 50px;
+
+}
+.slide div img{
+    width: 300px;
+    height: 300px;
+}
+.slide{
+
+    display: flex;
+    overflow: scroll;
+}
+.slide::-webkit-scrollbar {
+    display: none;
+  }

@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: dimgray;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20px;
+    
+    color: rgb(255, 255, 255);
+     
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+.push{
+    width: 200px;
+    height: 100px;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: aqua;
+    position: absolute;
+    top:60px;
+    left: 200px;
+    display: none;
+ 
+ }
+ 
+ 
+ #check:checked ~ .push{
+    display: block;
+ }
+
+
+/* *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbaer  li a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    
+}
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+} */
+
+/* .navbar{
+    list-style-type:none;
+    display: flex;
+    justify-content:center;
+    background-color:darkslategray;
+    padding: 10px;
+}
+.a1{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+
+}
+.a2{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+}
+.a3{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+}
+.a4{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+}
+.a5{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+}
+.a6{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+
+
+}
+
+.a7{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+
+}
+.a8{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+
+}
+.a9{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+}
+.a10{
+    text-decoration:none;
+    color:white;
+    margin:30px ;
+
+
+} */

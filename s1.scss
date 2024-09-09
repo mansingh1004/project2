@@ -1,0 +1,28 @@
+@import '_variable.scss';
+
+
+
+$btncolor:rgba(248, 185, 86,0.971);
+
+@mixin main(){
+    width: $btnwidth;
+    padding: 10px 0px 10px 0px;
+    font-size: 24px;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+
+.btn1{
+    @include main();
+    color: $btncolor;
+    background-color: black;
+    
+    
+}
+
+.btn2{
+    @include main();
+    color:$btncolor;
+    background-color: black;
+}

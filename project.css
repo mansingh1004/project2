@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(2, 8, 2);
+
+}
+.imgman  {
+    margin-top: 200px;
+    margin-left: 100px;
+    border-radius: 50% ;
+    border-color: yellow;
+    
+    
+ }
+
+
+.hero  article div{
+
+   /* width: 100%; */
+   /* height: 50vh; */
+   justify-content: center;
+   display: flex;
+   color: white;
+   
+}
+
+.hero article {
+    margin-top: -200px;
+
+}
+#input input{
+    width: 150px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 50px;
+   background-color: black;
+   text-align: center;
+   
+   color: white;
+   font-size: 15px;
+   font-weight: bolder;
+
+}
+
+#div1{
+    color: yellow;
+    font-size: larger;
+    font-weight: bolder;
+    /* margin-left: 10px; */
+
+}
+#div2{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 26px;
+
+}
+#div3{
+    margin-left:230px ;
+
+}
+
+/* ------------------------------------ABOUT ME--------------------------------------- */
+.about {
+    display: flex;
+    list-style-type: none;
+    justify-content:center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+   
+  
+   
+}
+.about li{
+    margin: 6px;
+    
+}
+#li1{
+    color: yellow;
+}
+#info {
+   margin-top: 100px;
+   margin-left: 100px;
+
+   
+    
+}
+#div10{
+    /* top: 200px; */
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#div11{
+    color: white;
+    opacity:0.5 
+    
+}
+.div111{
+
+    margin-left: 100px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+
+}
+.div12{
+    margin-left: 200px;
+    margin-top:-20px;
+    color: white;
+    
+}
+.div121{
+    margin-left: 300px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+}
+
+#div13{
+    color: white;
+}
+.div131{
+    margin-left: 100px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+}
+.div14{
+    margin-left: 200px;
+    margin-top:-20px;
+    color: white;
+}
+.div142{
+    margin-left: 300px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#div15{
+    color: white;
+}
+.div151{
+    margin-left: 100px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+}
+.div16{
+    margin-left: 200px;
+    margin-top:-20px;
+    color: white;
+}
+.div163{
+    margin-left: 300px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+}
+#div17{
+    color: white;
+}
+
+.div171{
+    margin-left: 100px;
+    margin-top:-20px;
+    color: white;
+    font-size: 20px;
+}
+
+.achv{
+    margin-top: -200px;
+    display: grid;
+    grid-template-columns: auto auto ;
+   justify-content: space-evenly;
+   align-items: center;
+   justify-content: center;
+   
+
+  
+
+}
+
+
+.achv article{
+ 
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+   
+    border: 1px solid white;
+}
+.year{
+   color: yellow;
+   margin-left: 20px;
+   font-size: 30px;
+   font-weight: bolder;
+}
+.experence{
+    color: white;
+    text-align: center;
+}
+.complete{
+    color: yellow;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.project{
+    color: white;
+    text-align: center;
+}
+.happy{
+    color: yellow;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.customer{
+    color: white;
+    text-align: center;
+
+}
+
+.award{
+    color: yellow;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.won{
+    color: white;
+    text-align: center;
+
+}
+
+/* ===================================My Skills===================================== */
+
+
+.my{
+    margin-top: 100px;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+
+}
+.skills {
+  margin-top: 50px;
+     display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+
+
+}
+.skills article{
+    margin: 10px;
+    width: 90px;
+    height: 90px;
+    border: 4px solid rgb(208, 255,0);
+    border-radius: 50%;
+    
+   
+}
+
+.skills article div{
+    
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    color: white;
+}
+.portfolio{
+    
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.alvgh article {
+    
+    display: flex;
+    justify-content: center;
+
+
+    
+}
+
+.alvgh article div a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+   
+}
+/* html{
+    overflow-x: hidden;
+} */
+
+.sect{
+   
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+}
+.sect article div img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+
+

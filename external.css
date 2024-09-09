@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    margin: 0px;
+}
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+    padding: 10px;
+   
+}
+.a1{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+   
+}
+.a2{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+.a3{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+.a4{
+    text-decoration: none;
+    margin: 10px;
+    color:white;
+}
+
+
+
